@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Event-Management-FullStack
+# Event Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Event Management System! This project allows users to perform basic event management tasks, such as creating and managing events. 
+Please note that authentication features are not implemented in this version.
+## Video 
 
-## Available Scripts
+https://github.com/animeshbarole/Event-Management-FullStack/assets/96922957/de4b42ce-88c4-4664-a81e-54eced3b6ba8
 
-In the project directory, you can run:
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [User Registration](#user-registration)
+  - [User Login](#user-login)
+  - [Event Creation](#event-creation)
+  - [Event Management](#event-management)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User registration
+- User login
+- Event creation
+- Event management (delete)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you begin, ensure you have the following dependencies installed:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/your-username/event-management.git
+````
 
-### `npm run eject`
+## Usage
+### User Registration
+To register a new user, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Open the application in your preferred web browser.
+- Click on the "Register" button.
+- Fill in the required information (e.g., username, email, password).
+- Click the "Submit" button to register.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### User Login
+To log in as a registered user:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Open the application in your preferred web browser.
+- Click on the "Login" button.
+- Enter your credentials (username or email and password).
+- Click the "Login" button to access your account.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Event Creation
+To create a new event:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Navigate to the "Create Event" section.
+- Fill in the event details (e.g., title, date, location).
+- Click the "Create Event" button to add the event.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Event Management
+To manage events:
 
-### Code Splitting
+- Log in as a registered user.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- Navigate to the "Upcoming Events" section.
+- Here, you can view, or delete your created events.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
+Feel free to contribute to the development of this project! Check out the contributing guidelines for more information.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

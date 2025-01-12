@@ -2,7 +2,7 @@
 # Event Management System
 
 Welcome to the Event Management System! This project allows users to perform basic event management tasks, such as creating and managing events. 
-Please note that authentication features are not implemented in this version.
+
 
 
 ## Table of Contents
